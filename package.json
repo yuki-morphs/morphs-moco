@@ -1,0 +1,11 @@
+{
+  "name": "morphs-moco",
+  "version": "0.0.1",
+  "description": "A web app powering Moco",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Yukio Matsui",
+  "license": "ISC"
+}
