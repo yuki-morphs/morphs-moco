@@ -1,9 +1,10 @@
 "use strict";
 
-const version = '0.0.1';
+// Test destructuring
+const [major, minor, patch] = [0, 0, 1];
 
 const logger = () => {
-  console.log(`version: ${version}`);
+  console.log(`version: ${major}.${minor}.${patch}`);
 };
 
 logger();
