@@ -1,5 +1,3 @@
-"use strict";
-
 // Test destructuring
 const [major, minor, patch] = [0, 0, 1];
 
@@ -8,4 +6,3 @@ const logger = () => {
 };
 
 logger();
-
