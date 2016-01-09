@@ -2,9 +2,9 @@
   "name": "morphs-moco",
   "version": "0.0.1",
   "description": "A web app powering Moco",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "babel src -d build",
     "test": "mocha --compilers js:babel-register"
   },
   "author": "Yukio Matsui",
