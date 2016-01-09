@@ -4,8 +4,12 @@
   "description": "A web app powering Moco",
   "main": "build/index.js",
   "scripts": {
+    "lint": "eslint src test",
+    "pretest": "npm run lint",
+    "test": "mocha --compilers js:babel-register",
+    "prebuild": "npm run test",
     "build": "babel src -d build",
-    "test": "mocha --compilers js:babel-register"
+    "clean": "rm -r build"
   },
   "author": "Yukio Matsui",
   "license": "ISC",
