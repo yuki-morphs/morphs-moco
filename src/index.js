@@ -1,7 +1,3 @@
 import version from './version.js';
 
-const logger = () => {
-  console.log(version.toString());
-};
-
-logger();
+document.write('<h2>' + version().toString() + '</h2>');

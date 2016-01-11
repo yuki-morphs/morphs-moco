@@ -7,8 +7,10 @@
     "lint": "eslint src test",
     "pretest": "npm run lint",
     "test": "mocha --compilers js:babel-register",
-    "prebuild": "npm run test",
-    "build": "webpack",
+    "prebuild:js": "npm run test",
+    "build:js": "webpack --progress --colors",
+    "build:html": "mkdir -p build && cp -r static/* build",
+    "build": "npm run build:html && npm run build:js",
     "clean": "rm -r build"
   },
   "author": "Yukio Matsui",
