@@ -1,8 +1,7 @@
-// Test destructuring
-const [major, minor, patch] = [0, 0, 1];
+import version from './version.js';
 
 const logger = () => {
-  console.log(`version: ${major}.${minor}.${patch}`);
+  console.log(version.toString());
 };
 
 logger();
