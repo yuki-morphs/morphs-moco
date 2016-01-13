@@ -4,6 +4,7 @@
   "description": "A web app powering Moco",
   "main": "build/main.js",
   "scripts": {
+    "dev": "webpack-dev-server --content-base public",
     "lint": "eslint src test",
     "pretest": "npm run lint",
     "test": "mocha --compilers js:babel-register",
