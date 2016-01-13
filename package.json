@@ -9,7 +9,7 @@
     "test": "mocha --compilers js:babel-register",
     "prebuild:js": "npm run test",
     "build:js": "webpack --progress --colors",
-    "build:html": "mkdir -p build && cp -r static/* build",
+    "build:html": "mkdir -p build && cp -r public/* build",
     "build": "npm run build:html && npm run build:js",
     "clean": "rm -r build"
   },
