@@ -2,7 +2,7 @@
   "name": "morphs-moco",
   "version": "0.0.1",
   "description": "A web app powering Moco",
-  "main": "build/index.js",
+  "main": "build/main.js",
   "scripts": {
     "lint": "eslint src test",
     "pretest": "npm run lint",
