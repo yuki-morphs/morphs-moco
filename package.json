@@ -29,5 +29,9 @@
     "mocha": "^2.3.4",
     "webpack": "^1.12.10",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
   }
 }

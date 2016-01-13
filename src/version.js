@@ -1,5 +1,5 @@
 const version = () => {
-  const [major, minor, patch] = [0, 0, 1];
+  const [major, minor, patch] = [0, 0, 3];
 
   return {
     major,
